@@ -1,0 +1,387 @@
+.orderNowWrapper{
+    margin-top: 170px;
+}
+
+hr{
+    width: 100%;
+    background-color: lightgray;
+    border: none
+}
+
+.orderNowHeader{
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.orderNowHeaderTitle{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.orderNowSummaryInfoWrapper{
+    width: 80%;
+    border: 2px solid lightgray;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+}
+
+.orderNowSummaryInfoWrapper span{
+    font-weight: bolder;
+    color: gray;
+}
+
+.orderNowMainContent{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.orderNowLeftContentWrapper{
+    flex: 3;
+}
+
+.shippingAdressWrapper{
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+}
+
+.shippingAdressTitle{
+    font-weight: bolder;
+    color: gray;
+}
+
+#chooseShippingAdress{
+    border: none;
+}
+
+select{
+    border: 1px solid gray;
+    width: 40%;
+    height: 30px;
+    font-style: italic;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.shippingAdressOtherOfficeInput{
+    border: 1px solid gray;
+    width: 80%;
+    height: 30px;
+    font-style: italic;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.orderNowRightContentWrapper{
+    flex: 7;
+    margin-left: 50px;
+}
+
+.orderNowRightContentWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderNowPaymentMethodWrapped{
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    -webkit-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+}
+
+.paymentMethodTitle{
+    font-weight: bolder;
+    color: gray;
+}
+
+.paymentMethodContent{
+    display: flex;
+}
+
+#choosePaymentMethod{
+    border: none;
+}
+
+.orderNowPaymentMethodImg{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderNowDeliveryMethod{
+    margin-top: 20px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+}
+
+.deliveryMethodTitle{
+    font-weight: bolder;
+    color: gray;
+}
+
+.deliveryMethodTopSection{
+    display: flex;
+}
+
+#chooseDeliveryMethod{
+    border: none;
+    margin: auto;
+}
+
+.deliryMethodImg{
+    width: 600px;
+    margin: auto;
+}
+
+.deliveryMethodBottomSection{
+    text-align: center;
+}
+
+.orderNowDiscountCodeWrapper{
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+}
+
+.discountCodeTitle{
+    font-weight: bolder;
+    color: gray;
+}
+
+.discountCodeContent{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 10px;
+}
+
+.discountCodeInputGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.discountCodeInputGroup input{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    font-style: italic;
+    outline: none;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+
+.discountCodeButton{
+    border: 1px solid rgb(50, 106, 181);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(50, 106, 181);
+    cursor: pointer;
+}
+
+.discountCodeInfo{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.orderNowShoppingCartWrapper{
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+}
+
+.shoppingCartTitle{
+    font-weight: bolder;
+    color: gray;
+}
+
+
+.shoppingCardMainContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.numberOfPieces{
+    border-collapse: collapse;
+    border-radius: 4px;
+    border-spacing: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table thead tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+}
+table thead tr:first-child th:last-child{
+    border-top-right-radius: 10px;
+}
+table tbody tr:last-child td:first-child{
+    border-bottom-left-radius: 10px;
+}
+table tbody tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+}
+
+.productName{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+table tbody tr td{
+    background-color: white;
+    height: 100px;
+}
+
+.numberOfPieces thead tr th{
+    background-color: lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    color: black;
+
+}
+
+.numberOfPiacesWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberOfPiaces{
+    display: flex;
+    margin-right: 10px;
+}
+
+.numberOfPiaces > span{
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+}
+
+.numberOfPieacesUpDownButtons span{
+    height: 22px;
+    border: 1px solid gray;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.numberOfPiacesButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+.numberOfPiacesButtons span{
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    background-color: rgb(239,157,148,1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.numberOfPieacesUpDownButtons{
+    display: flex;
+    flex-direction: column;
+}
+
+.finalPriceSummary{
+    background-color: white;
+    border-collapse: collapse;
+
+}
+
+.finalPriceSummary tr td{
+    border: 1px solid lightgray;
+    padding: 10px 10px 10px 0;
+    text-align: right;
+    font-weight: 500;
+}
+
+.orderNowShoppingCartWrapper p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.orderNowSubmitOrderWrapper{
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+    box-shadow: 10px 7px 32px -1px rgba(0,0,0,0.3);
+}
+
+.submitOrderTitle{
+    font-weight: bolder;
+    color: gray;
+}
+
+textarea{
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.orderNowSubmitButton{
+    display: flex;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(51,179,207,1);
+    color: white;
+    cursor: pointer;
+}
+
+
+.shoppingCartSingleImg{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+
+
+/* 51,179,207,1 */

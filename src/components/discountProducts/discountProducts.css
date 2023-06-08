@@ -1,0 +1,17 @@
+.promotionWrapper{
+    background-color: rgb(237,247,251);
+    margin-top: 180px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgWrapper img{
+    flex-direction: 33.33%;
+    margin: 10px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,124 @@
+.headerStaticWrapper{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+}
+
+.topHeaderWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 106, 181);
+    height: 40px;
+}
+
+.topHeaderWrapper p{
+    color: rgb(237,247,251)
+}
+
+.middleHeaderWrapper{
+    display: flex;
+}
+
+.logoImgMiddleHeaderWrapper{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImgMiddleHeader{
+margin-top: 10px;
+width: 60%;
+}
+
+.contactInfoMiddleHeaderWrapper{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfoIcon{
+    width: 50px;
+    height: 60px;
+}
+
+.contactInfoContent{
+    display: flex;
+}
+
+.contactInfoMiddleHeaderWrapper  p{
+    font-size: 15px;
+    margin-left: 4px;
+    font-weight: 500;
+} 
+
+.searchItemsMiddeheaderWrapper{
+    flex: 4;
+    display: flex;
+    align-items: center;
+}
+
+.searchItemsMiddeheaderWrapper input{
+    height: 30%;
+    width: 70%;
+    border-radius: 10px 0 0 10px;
+    border-color: rgb(50, 106, 181);
+    outline: none;
+}
+
+.savedItemsIconMiddleHeaderWrapper{
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.savedItemsIconMiddleHeaderWrapper span{
+    background-color: red;
+    top: 15px;
+    right: 60px;
+    position: absolute;
+    color: rgb(237,247,251);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1px;
+}
+
+.bottomHeaderWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(50, 106, 181);
+}
+
+.bottomHeaderLeftWrapper{
+    margin-right: 30px;
+}
+
+.buttonHeaderOption{
+    padding: 10px;
+    font-weight: 400;
+    color: rgb(237,247,251);
+    cursor: pointer;
+}
+
+.buttonHeaderOption:hover{
+    background-color: rgb(237,247,251);
+    color: rgb(50, 106, 181);
+}
+
+

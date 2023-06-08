@@ -1,0 +1,106 @@
+.footerWrapper{
+    background-color: rgb(50, 106, 181);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.socialMediaFooterWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.socialMediaIcon{
+    color: rgb(50, 106, 181);
+    margin: 10px 10px;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.socialMediaIcon:hover{
+    background-color: rgb(50, 106, 181);
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.footerInfoWrapper{
+    display: flex;
+}
+
+.footerInforLeftWrapper{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footerInfoLeftImg{
+    width: 70%;
+}
+
+.footerInfoMiddleWrapper{
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerOptionList{
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.footerOption{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.footerInfoRightWrapper{
+    flex: 3;
+}
+
+.footerInputDesctiptionText{
+    font-style:italic;
+    font-weight: bolder;
+    color: white;
+}
+
+.footerInfoInput{
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    margin-top: 10px;
+    font-style: italic;
+    outline: none;
+}
+
+.footerInfoInputButton{
+    border: none;
+    height: 32px;
+    background-color: green;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.footerAgreeRulezGroup{
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}

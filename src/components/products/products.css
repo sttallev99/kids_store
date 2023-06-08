@@ -1,0 +1,141 @@
+.productsWrapper{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.productWrapper{
+    position: relative;
+    border: 1px solid rgb(50, 106, 181, .3);
+    background-color: white;
+    display:inline-block;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.productImgWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.productImg{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    width: 100%;
+}
+.productNumber{
+    display: flex;
+    margin: auto;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.productDiscount{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.favProductIcon{
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width:30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(50, 106, 181);
+    cursor: pointer;
+}
+
+.productDescriptionWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 95%;
+    background-color: rgb(50, 106, 181, .3);
+    border: none;
+    height: 1px;
+}
+
+.middleHr{
+    width: 70%;
+}
+
+.productName{
+    width: 90%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.productPrice{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.productDiscountPrice{
+    margin-bottom: 10px;
+}
+
+.productCurrentPrice{
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 17px;
+    color: gray;
+}
+
+.productNewPrice{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.addProductButton{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(50, 106, 181);
+    cursor: pointer;
+}
+
+.productInfoWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.productInfo{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: gray;
+    font-weight: 300;
+    cursor: pointer;
+}
